@@ -117,3 +117,37 @@ footer p{
     font-size:12px;    
     
 }
+
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    .form {
+        margin-bottom: 20px;
+    }
+
+    textarea {
+        font-size: 16px;
+    }
+
+    .botones button {
+        padding: 12px 40px;
+    }
+
+    .resultado {
+        padding: 15px;
+    }
+
+    .imagen {
+        height: 150px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
