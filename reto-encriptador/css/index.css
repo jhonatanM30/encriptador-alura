@@ -26,10 +26,17 @@ main {
     margin-bottom: 30px;
 }
 
+.form p{
+    margin-bottom: 30px;
+    font-size:12px;
+    font-weight: bold;
+    color: #003366; /* Azul oscuro */
+    
+}
+
 textarea {
     width: 100%;
-    padding: 12px;
-    margin-bottom: 10px;
+    padding: 12px;   
     border-radius: 5px; /* Más sobresaliente */
     resize: vertical;
     box-sizing: border-box; /* Incluye el padding en el width */
@@ -54,7 +61,8 @@ textarea:focus {
 
 .botones {
     display: flex;
-    justify-content: center;   
+    justify-content: center;  
+    margin-top:15px;    
 }
 
 button {
